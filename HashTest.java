@@ -166,7 +166,7 @@ public class HashTest {
 
 		if (Integer.parseInt(args[0]) == 2) 
 		{
-			System.out.println("Data source type: Current Time   \n \n");
+			System.out.println("Data source type: Current Time   \n");
 
 			linearTable = new HashTable(n, size);
 			doubleTable = new HashTable(n, size);
@@ -268,7 +268,7 @@ public class HashTest {
 
 		if (Integer.parseInt(args[0]) == 3) {
 
-			System.out.println("Data source type: word-list \n \n");
+			System.out.println("Data source type: word-list \n");
 
 			File file = new File("word-list");
 			Scanner scan = null;
