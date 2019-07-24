@@ -54,7 +54,7 @@ public class HashTest {
 		if(Integer.parseInt(args[0]) == 1)
 		{
 			
-			System.out.println("Data source type: Random Number \n \n");
+			System.out.println("Data source type: Random Number \n");
 			
 			linearTable = new HashTable(n, size);
 			doubleTable = new HashTable(n, size);
